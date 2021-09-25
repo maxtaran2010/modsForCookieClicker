@@ -10,7 +10,5 @@
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
-
-document.domain = "dashnet.org";
 alert('you are not AFK?');
-alert('game is started');
+alert('game is started');a
