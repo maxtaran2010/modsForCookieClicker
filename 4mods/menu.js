@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         ''Script Name''
-// @namespace    ''Github Page''
-// @homepageURL  ''Script.js''
-// @updateURL    ''Script.js''
-// @downloadURL  ''Script.js''
-// @version      ''Current Version'' (Not Required)
+// @name         ''4mods menu''
+// @namespace    ''https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/menu.js''
+// @homepageURL  ''menu.js''
+// @updateURL    ''https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/menu.js''
+// @downloadURL  ''http://bamaec.ru/extentions''
+// @version      ''1.0'' (Not Required)
 // @description  Load the Script when Cookie Clicker starts
-// @author       ''Author Name''
+// @author       ''mr. SHARFIK''
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
