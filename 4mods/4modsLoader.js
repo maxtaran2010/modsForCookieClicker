@@ -10,4 +10,5 @@
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
+alert("hello!")
 Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
