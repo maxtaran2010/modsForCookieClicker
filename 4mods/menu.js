@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         ''4mods menu''
+// @name         ''4mods''
 // @namespace    ''https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/menu.js''
-// @homepageURL  ''menu.js''
-// @updateURL    ''https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/menu.js''
+// @homepageURL  ''4mods.js''
+// @updateURL    ''http://bamaec.ru/extentions/4mods/update.xml''
 // @downloadURL  ''http://bamaec.ru/extentions''
 // @version      ''1.0'' (Not Required)
 // @description  Load the Script when Cookie Clicker starts
@@ -10,5 +10,4 @@
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
-alert('you are not AFK?');
-alert('game is started');a
+Game.loadMod("4mods.js")
