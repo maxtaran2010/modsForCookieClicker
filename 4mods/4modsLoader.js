@@ -10,11 +10,9 @@
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
-//Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
-//console.log("~hello form 4mods!")
+Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
+console.log("~hello form 4mods!")
 Game.Launch();
-//try {Game.Launch();}
-//catch(err) {console.log('ERROR : '+err.message);}
 
 window.onload=function()
 {
