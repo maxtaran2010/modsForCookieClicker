@@ -13,5 +13,3 @@
 Game.LoadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
 console.log("~hello form 4mods!")
 Game.Launch();
-
-window.onload();
