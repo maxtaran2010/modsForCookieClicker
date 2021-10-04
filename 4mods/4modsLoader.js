@@ -10,5 +10,30 @@
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
- Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
-console.log("~hello form 4mods!")
+//Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
+//console.log("~hello form 4mods!")
+Game.Launch();
+//try {Game.Launch();}
+//catch(err) {console.log('ERROR : '+err.message);}
+
+window.onload=function()
+{
+	
+	if (!Game.ready)
+	{
+		if (top!=self) Game.ErrorFrame();
+		else
+		{
+			console.log('[=== '+choose([
+				'Oh, hello!',
+				'hey, how\'s it hangin',
+				'About to cheat in some cookies or just checking for bugs?',
+				'Remember : cheated cookies taste awful!',
+				'Hey, Orteil here. Cheated cookies taste awful... or do they?',
+			])+' ===]');
+			Game.Load();
+			//try {Game.Load();}
+			//catch(err) {console.log('ERROR : '+err.message);}
+		}
+	}
+};
