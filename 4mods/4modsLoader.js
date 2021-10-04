@@ -14,24 +14,4 @@ Game.LoadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicke
 console.log("~hello form 4mods!")
 Game.Launch();
 
-window.onload=function()
-{
-	
-	if (!Game.ready)
-	{
-		if (top!=self) Game.ErrorFrame();
-		else
-		{
-			console.log('[=== '+choose([
-				'Oh, hello!',
-				'hey, how\'s it hangin',
-				'About to cheat in some cookies or just checking for bugs?',
-				'Remember : cheated cookies taste awful!',
-				'Hey, Orteil here. Cheated cookies taste awful... or do they?',
-			])+' ===]');
-			Game.Load();
-			//try {Game.Load();}
-			//catch(err) {console.log('ERROR : '+err.message);}
-		}
-	}
-};
+window.onload();
