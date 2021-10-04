@@ -10,15 +10,5 @@
 // @match        https://orteil.dashnet.org/cookieclicker/
 // @grant        none
 // ==/UserScript==
-
-var loadFunc = function() {
-    var Game = window.Game;
-    if(Game && Game.ready) {
-        Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
-        console.log("~hello form 4mods!")
-        return true;
-    } else {
-        return false;
-    }
-}
-loadFunc();
+ Game.loadMod("https://raw.githubusercontent.com/maxtaran2010/modsForCookieClicker/master/4mods/4mods.js")
+console.log("~hello form 4mods!")
